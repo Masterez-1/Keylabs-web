@@ -11,7 +11,11 @@ La página tiene HTML5 y utiliza el marco de trabajo de Boostrap, con algo de CS
 Es un sitio web de venta de teclados personalizados, solo se realizo la parte frontal, tiene un catálogo de productos y una forma de contactar al negocio a través de un cuadro de texto.
 
 <hr>
-# Images / Imagenes
+
+<h1>Images / Imagenes</h1>
+
+https://github.com/Masterez-1/Keylabs-web/assets/59570589/489ef202-8ccb-496d-94da-a7d51702e0d7
+
 
 
 
