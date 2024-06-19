@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keylabs</title>
+    <link rel="icon" href="img/logo.png">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS custom -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap JS y dependences -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                    Keylabs
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="products/products.html">Products</a>
+                        <a class="nav-link" href="contact/contact.html">Contact</a>
+                    </div>
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search product" aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="reset">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/keyboard_home.jpg" class="d-block w-100" alt="keyboard_home">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/keyboard_1.jpg" class="d-block w-100" alt="keyboard_1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/keyboard_2.jpg" class="d-block w-100" alt="keyboard_2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+
+    <!-- Main Section -->
+    <div class="container main-section my-5">
+        <section class="text-center">
+            <h1 class="section-title">KeyLabs ©</h1>
+            <p>Keylabs specializes in custom keyboards, keycaps, and switches.
+                Discover our curated selection of premium products designed to enhance your typing experience.
+                Whether you're new to custom keyboards or a seasoned enthusiast, find everything you need to build your
+                dream setup with Keylabs.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card">
+                            <img src="img/keyboard.jpg" class="card-img-top" alt="keyboard">
+                            <div class="card-body">
+                                <p class="card-text">Choose a custom keyboard here!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card">
+                            <img src="img/switch.jpg" class="card-img-top" alt="switch">
+                            <div class="card-body">
+                                <p class="card-text">Buy your switches here!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card">
+                            <img src="img/keycaps.jpg" class="card-img-top" alt="keycaps">
+                            <div class="card-body">
+                                <p class="card-text">Buy your custom keycaps here!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">KeyLabs</h5>
+                    <p>KeyLabs is a project page, not a real store. <br>
+                        This is developed to practice web development using boostrap. <br>
+                        for more information contact Masterez(Mz)
+                    </p>
+
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="https://github.com/Masterez-1" class="text-blue">GitHub - Masterez(Mz)</a></li>
+                        <li>Developed by Mz</li>
+                        <li>Resources such as images were taken from Google Images</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
