@@ -10,6 +10,8 @@ Esta página fue hecha como práctica y proyecto para mi maletín<br>
 La página tiene HTML5 y utiliza el marco de trabajo de Boostrap, con algo de CSS y JS puro.<br>
 Es un sitio web de venta de teclados personalizados, solo se realizo la parte frontal, tiene un catálogo de productos y una forma de contactar al negocio a través de un cuadro de texto.
 
+<hr>
+# Images / Imagenes
 
 
 
